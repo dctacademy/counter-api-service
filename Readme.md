@@ -40,3 +40,40 @@ The Counter API Service is a lightweight, RESTful web service built on Node.js w
 2. The PUT endpoint `/api/counters/:id` expects one of three values in the query parameter `type`: 'increment', 'decrement', or 'reset'. Depending on the value, it increments, decrements, or resets the counter value to 0.
 3. If a specific counter is not found for the GET, PUT, or DELETE operations, an empty JSON object `{}` is returned.
 
+### Installation:
+
+1. **Clone the Repository:**
+   Use Git to clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/dctacademy/counter-api-service.git
+   ```
+
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd counter-api-service
+   ```
+
+3. **Install Dependencies:**
+   Most Node.js projects use npm (Node Package Manager) or Yarn to manage dependencies. Check if there's a `package.json` file in the directory. If it exists, you can install the required packages using:
+   ```bash
+   npm install
+   ```
+   Or if there's a `yarn.lock` file, you might want to use:
+   ```bash
+   yarn
+   ```
+
+
+4. **Run the Service:**
+   Once everything is set up, you can typically start the service with:
+   ```bash
+   npm start
+   ```
+   Or, if the project uses Yarn:
+   ```bash
+   yarn start
+   ```
+
+5. **Access the Service:**
+   If everything is set up correctly and the service starts without any issues, you should be able to access the API through your browser or tools like [Postman](https://www.postman.com/) at the address specified
+
