@@ -24,7 +24,8 @@ The Counter API Service is a lightweight, RESTful web service built on Node.js w
 
 - **Performance or Event Trackers:** In scenarios where specific events (like downloads, uploads, or user logins) need to be tracked, each event can be a counter that increments with each occurrence.
 
-
+### APIs :
+**base url - http://localhost:3050**
 
 | Method | Endpoint                 | Query Params      | Body  | Description                                                           | Response                                       |
 |--------|--------------------------|-------------------|-------|-----------------------------------------------------------------------|------------------------------------------------|
